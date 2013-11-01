@@ -1,0 +1,7 @@
+To install the program you need Qt4 and cmake:
+
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+make
+make install

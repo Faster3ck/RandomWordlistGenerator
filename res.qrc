@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>res/icon.png</file>
+        <file>res/btn_donateCC_LG.gif</file>
+    </qresource>
+</RCC>

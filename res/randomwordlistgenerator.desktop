@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Random Wordlist Generator
+GenericName=Random Wordlist Generator
+Name[en_GB]=Random Wordlist Generator
+Name[it]=Random Wordlist Generator
+Comment=Generate random wordlists to test your password security
+Comment[it]=Generatore di dizionari con parole random per testare la sicurezza delle password
+Exec=randomwordlistgenerator
+Icon=/usr/share/pixmaps/randomwordlistgenerator.png
+StartupNotify=true
+X-KDE-StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Qt;Other;
