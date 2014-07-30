@@ -31,19 +31,15 @@ SET(randomwordlistgenerator_RESOURCES
 )
 
 
-FIND_PACKAGE(Qt4 REQUIRED)
+FIND_PACKAGE(Qt5Widgets REQUIRED)
 
-INCLUDE(${QT_USE_FILE})
-QT4_WRAP_UI(randomwordlistgenerator_UIS_H ${randomwordlistgenerator_UIS})  
-QT4_WRAP_CPP(randomwordlistgenerator_MOC_SRCS ${randomwordlistgenerator_MOC_HDRS})  
-QT4_ADD_RESOURCES(randomwordlistgenerator_RESOURCES ${randomwordlistgenerator_RESOURCES})
-QT4_ADD_TRANSLATION(randomwordlistgenerator_RESOURCES ${randomwordlistgenerator_LANG}) 
+set(CMAKE_AUTOMOC ON)
+QT5_WRAP_UI(randomwordlistgenerator_UIS_H ${randomwordlistgenerator_UIS})  
+QT5_ADD_RESOURCES(randomwordlistgenerator_RESOURCES ${randomwordlistgenerator_RESOURCES})
 
 ADD_DEFINITIONS(
 	-Wall
 	-W
-	-DMAGICKCORE_HDRI_ENABLE=0
-	-DMAGICKCORE_QUANTUM_DEPTH=16
 	${QT_DEFINITIONS}
 )
 
@@ -58,6 +54,8 @@ ADD_EXECUTABLE(${GUI}
 )  
   
 TARGET_LINK_LIBRARIES(${GUI} ${QT_LIBRARIES} ${ImageMagick_LIBRARIES} ${ImageMagick_Magick++_LIBRARIES})
+
+qt5_use_modules(${GUI} Widgets Gui)
 
 install(PROGRAMS ${CMAKE_CURRENT_BINARY_DIR}/randomwordlistgenerator DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 install(FILES res/randomwordlistgenerator.desktop DESTINATION ${CMAKE_INSTALL_PREFIX}/share/applications)

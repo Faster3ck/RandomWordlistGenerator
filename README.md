@@ -11,7 +11,7 @@ With a mouse click you can generate thousand of different words in a few minutes
 ## Installing
 
 **Random Wordlist Generator** is available for both **Linux** and **Windows** platforms.  
-To install **Random Wordlist Generator** on **Linux** you can compile the source code using **cmake** and **Qt4** .  
+To install **Random Wordlist Generator** on **Linux** you can compile the source code using **cmake** and **Qt5** .  
 To install the program on Windows you can simply download the installer from [this page](http://random-wordlist-generator.sourceforge.net/).
 
 ## Author
@@ -24,7 +24,7 @@ If you appreciate this work and would like to support the project, you are welco
 ## License
  
     Random Wordlist Generator
-    Copyright (C) 2013  Francesco Mondello
+    Copyright (C) 2013 - 2014 Francesco Mondello
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

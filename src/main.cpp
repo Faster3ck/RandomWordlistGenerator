@@ -1,7 +1,7 @@
 /*
 * This file is part of Random Wordlist Generator
 *
-* (C) Francesco Mondello 2013
+* (C) Francesco Mondello 2013 - 2014
 *
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -24,14 +24,12 @@
 #include <QApplication>
 #include <QTextCodec>
 
-#define VERSION "0.1"
+#define VERSION "0.2"
 
 int main(int argc, char *argv[])
 {
     QCoreApplication::setApplicationVersion(VERSION);
 
-    QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
-    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 
     QApplication a(argc, argv);

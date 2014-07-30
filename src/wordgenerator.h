@@ -1,7 +1,7 @@
 /*
 * This file is part of Random Wordlist Generator
 *
-* (C) Francesco Mondello 2013
+* (C) Francesco Mondello 2013 - 2014
 *
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by

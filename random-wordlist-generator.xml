@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Francesco Mondello -->
+<application>
+ <id type="desktop">randomwordlistgenerator.desktop</id>
+ <metadata_license>CC0-1.0</metadata_license>
+ <project_license>GPL-3.0+</project_license>
+ <name>Random Wordlist Generator</name>
+ <summary>Generate random wordlist to test your passwords' security</summary>
+ <description>
+ <p>Random Wordlist Generator is a simple multiplatform tool that allows you to create a wordlist of random words.</p>
+ <p>You can generate random words using different sets of characters.</p>
+ <p>With a mouse click you can generate thousand of different words in a few minutes.</p>
+ </description>
+ <screenshots>
+  <screenshot type="default" width="478" height="556">http://random-wordlist-generator.sourceforge.net/rwg-kde.png</screenshot>
+ </screenshots>
+ <url type="homepage">http://random-wordlist-generator.sourceforge.net/</url>
+ <updatecontact>faster3ck@gmail.com</updatecontact>
+</application>

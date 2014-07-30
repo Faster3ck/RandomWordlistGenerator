@@ -155,7 +155,7 @@
    <item>
     <widget class="QLabel" name="label_6">
      <property name="text">
-      <string>(c) 2013 - Francesco Mondello GNU - GPL v.3</string>
+      <string>(c) 2013 - 2014 - Francesco Mondello GNU - GPL v.3</string>
      </property>
     </widget>
    </item>
