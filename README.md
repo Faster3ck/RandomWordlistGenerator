@@ -1,4 +1,4 @@
- # Random Wordlist Generator
+# Random Wordlist Generator
 
 ![alt text](http://random-wordlist-generator.sourceforge.net/Random-Wordlist-Generator.png "Random Wordlist Generator")
 
