@@ -125,7 +125,7 @@ void MainWindow::setCurrentPassword(QString password)
     ui->statusBar->showMessage(tr("Current password: ") + password, 500);
 
     QTextStream out(&file);
-    out << "2" << password << endl;
+    out << password << endl;
 
     generatePassword();
 }

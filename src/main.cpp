@@ -24,7 +24,7 @@
 #include <QApplication>
 #include <QTextCodec>
 
-#define VERSION "0.2"
+#define VERSION "0.2.1"
 
 int main(int argc, char *argv[])
 {
