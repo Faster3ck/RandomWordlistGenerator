@@ -218,7 +218,7 @@
          <item>
           <widget class="QLabel" name="label_5">
            <property name="text">
-            <string>Number of passwors</string>
+            <string>Number of passwords</string>
            </property>
           </widget>
          </item>
